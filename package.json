@@ -1,0 +1,20 @@
+{
+  "name": "transfers",
+  "version": "1.0.0",
+  "description": "A simple event-driven transfers service built on Node's EventEmitter",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node --test",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
